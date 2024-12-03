@@ -50,7 +50,7 @@ Write a brief (1-2 page) reflection covering:
 4. Brief video demo (2-3 minutes) showing key features
 
 ## Due Date
-End of finals, next Monday, December 9.
+End of finals, next Monday, December 9. This is a strict due date. There will be no leeway this time, as opposed to previous homeworks, and pushes to your repo will be blocked after the cutoff date. There must be ample time for proper scoring before final grades are due.
 
 ## Grading Rubric Details
 
@@ -62,7 +62,7 @@ End of finals, next Monday, December 9.
 - Use AI tools thoughtfully and document their use
 
 ## Important Notes
-- This is an individual project
+- This is an individual project, but you can certainly peruse your classmates' codes for inspiration. However, each project must be unique.
 - You may use AI tools, but must document their use
 - All code must be original or properly attributed
 - Regular commits are expected to show progress
