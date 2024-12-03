@@ -11,7 +11,7 @@ Create a web application that demonstrates your understanding of state managemen
 - Implementation of necessary state methods (getState, setState, subscribe) (5 pts)
 
 ### Components (15 points)
-- At least 3 function components (5 pts)
+- At least 3 function components. A vast majority, outside of perhaps a title/heading, should be rendered in an 'app `div`' as we have demonstrated in class (5 pts)
 - Proper component composition and reuse (5 pts)
 - Clean, well-structured component code (5 pts)
 
