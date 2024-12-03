@@ -1,34 +1,68 @@
-# HTML-Tailwind-JS Template Repo
+# Final Project: Building a Reactive Web Application
 
-This repo should provide a stable template for working with HTML, TailwindCSS, and JavaScript. With the provided VS Code Settings and Extensions, all major linting and formatting should be handled automatically, including Tailwind class formatting 🤞🏾.
+## Project Overview
+Create a web application that demonstrates your understanding of state management, reactivity, and component-based architecture. You'll build a CRUD application (minus Update) using the concepts we've covered in class.
 
-## Getting Started
+## Core Requirements (40 points)
 
-Utilize your GitHub Classroom link or click the "Use this template" button to create a new repo. This will create a new repo with the same structure as this one on your GitHub account.
+### State Management (15 points)
+- Properly implemented state manager using IIFE pattern (5 pts)
+- Correct use of closures to maintain private state (5 pts)
+- Implementation of necessary state methods (getState, setState, subscribe) (5 pts)
 
-Clone the repo to your local machine by clicking the green "Code" button. Normally, the easiest way to do this is the GitHub CLI, assuming that you have it installed. If not, you can download it [here](https://cli.github.com/). You also need to run `gh auth login` to authenticate your GitHub account. One other with the GitHub CLI is that you may have to restart your terminal after installing it.
+### Components (15 points)
+- At least 3 function components (5 pts)
+- Proper component composition and reuse (5 pts)
+- Clean, well-structured component code (5 pts)
 
-![Clone the repo with GitHub CLI](./clone.png)
+### Functionality (10 points)
+- Create: Add new items to state (3 pts)
+- Read: Display items from state (3 pts)
+- Delete: Remove items from state (3 pts)
+- Working event handlers (1 pt)
 
-You'll copy the command by clicking the copy icon there ☝️. Navigate to your `Code` or `Dev` or whatever directory you have where you are keeping your code projects and paste the command in.
+## Design & User Experience (10 points)
+- Effective use of Tailwind CSS (5 pts)
+- Clean, intuitive interface (3 pts)
+- Consistent styling throughout (2 pts)
 
-⚠️ DO NOT clone a repo inside another repo. This will cause issues with git and you'll have to delete the inner repo to fix it. Make sure that you are in a directory that is not a git repo before cloning. To put it another way, if you see the annotation `(master)` or `(main)` in your terminal, you are in a git repo. You can check by running `git status`. If you see `fatal: not a git repository (or any of the parent directories): .git`, you are not in a git repo.
+## Deployment & Documentation (10 points)
+- Successfully deployed to Netlify (3 pts)
+- Quality commit history with meaningful messages (7 pts)
 
-So, again, make sure you are not in a git repo before cloning this repo. No nested repos, please 🙏:🏾.
+## Reflection Document (5 points)
+Write a brief (1-2 page) reflection covering:
+- Your development process
+- How you used AI tools (and why)
+- Challenges faced and how you overcame them
+- What you learned
+- What you would do differently next time
 
-First, `cd` into the newly created repo. You can do `ls` to check for it and then type `cd` followed by at least the first few characters of the repo name. You will now have changed into the repo directory (it will probably show `(master)` or `(main)`.
+## Dataset Options
+1. You may utilize any datasets from any previous **Node assigment.** In other words, anythingt that we haven't already rendered in the browser. You could copy/paste data and maybe some of the components from before to get started.
+   
+2. Or, create your own dataset (must have at least 4 properties per item). You may want to use AI to help with this part.
 
-Now, it's time to install the project's dependencies. You can do this by running `npm install` in the root of the project. This will install all the dependencies listed in the `package.json` file.
+## Submission Guidelines
+1. GitHub repository URL
+2. Netlify deployment URL
+3. Reflection document (MD)
+4. Brief video demo (2-3 minutes) showing key features
 
-Summarily, this checks the `package.json` file for the necessary `"dependencies"` and/or `"devDependencies"`. It communicates with the npm registry to download the necessary packages and install them in the `node_modules` directory. This directory is created in the root of the project and is where all the dependencies are stored. This directory is ignored 🙈 by Git because it is so bloated.
+## Due Date
+End of finals, next Monday, December 11.
 
-Now, open the code up with `code .`. This runs the `code` command (for VS Code) and opens the current directory (`.`) in the editor.
+## Grading Rubric Details
 
-You should see a `.vscode` directory in the root of the project. This directory contains the settings and extensions that are recommended for this project. You should see a notification in the bottom right corner of the editor that says "Recommended Extensions Found". Click "Install All" to install the recommended extensions.
-If you don't, then hopefully 🤞🏾 that means that you have already installed the extensions.
+## Tips for Success
+- Start with state management implementation
+- Build and test components one at a time
+- Commit frequently with meaningful messages
+- Test thoroughly before deployment
+- Use AI tools thoughtfully and document their use
 
-Check out the files - you'll see HTML, CSS, and JS files (if needed) in `src`.
-
-> Do what must be done.
-
-You'll want to switch back over to your terminal and run `npm run dev` to start the Vite local server. There'll be a message in the terminal that says `Server running at http://localhost:3000`. Open that link in your browser to see the project. As you make changes to the files, the browser will automatically refresh to show the changes 🧑‍💻.
+## Important Notes
+- This is an individual project
+- You may use AI tools, but must document their use
+- All code must be original or properly attributed
+- Regular commits are expected to show progress
