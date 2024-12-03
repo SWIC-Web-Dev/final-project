@@ -50,7 +50,7 @@ Write a brief (1-2 page) reflection covering:
 4. Brief video demo (2-3 minutes) showing key features
 
 ## Due Date
-End of finals, next Monday, December 11.
+End of finals, next Monday, December 9.
 
 ## Grading Rubric Details
 
